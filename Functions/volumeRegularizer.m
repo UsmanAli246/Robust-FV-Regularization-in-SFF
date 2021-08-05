@@ -1,5 +1,7 @@
 function U = volumeRegularizer(G,U0,F,nei,lambda,sig1,sig2,sig3,itr)
 
+% MM algorithm
+
 U = cell(1,itr);
 [X,Y,Z]=size(G);
 ONES=ones(X,Y,Z);
